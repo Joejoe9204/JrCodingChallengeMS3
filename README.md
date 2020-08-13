@@ -5,8 +5,10 @@ A Java app that consumes a CSV file, parses the data, and inserts valid records 
 This repo's purpose is to document, store and record data read from a csv file into three(3) locations. It is also a coding challenge given to me by the MS3 team.
 
 ~~~~~~~~~How to use~~~~~~~~~
+Download version 3.30.1 of xerial's sqlite-jdbc found here https://bitbucket.org/xerial/sqlite-jdbc/downloads/ Put the downloaded item in your Java fodler with this path.
+C:\Program Files (x86)\Java\jre1.8.0_261\lib\ext - and in this ext folder create a folder titled sqlite-jdbc. In addition make sure the latest version of Java is installed along with any Java IDE.
 Download all files from master branch to any folder. The easy way to run this and see the results is to just let the executable file "MS3exe.jar" run. 
-This will produce a log file, a csv file, and a sqlite database. The "MS3exe.jar" file runs off a slightly modified version of the original csv file given.
+This will produce a log file, a csv file, and a sqlite database after a minute or two. The "MS3exe.jar" file runs off a slightly modified version of the original csv file given.
 This modified version of the csv removed an apostrophe from four(4) data cells (all cities). The modified version of the csv works completely.
 
 The unmodified version of the csv file runs up until it hits the first apostrophe in the city column. 
