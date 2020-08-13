@@ -59,7 +59,7 @@ public class Main {
 		System.out.println("Database finished");
 		System.out.println("Bad data recorded");
 		System.out.println("Log written");
-		LogWrite(success + failed, failed, success);
+		LogWrite(success + failed, success, failed);
 	}
 	
 	
@@ -92,7 +92,7 @@ public class Main {
 	}
 	
 	
-	public static void LogWrite(int totcount, int badcount, int goodcount) {
+	public static void LogWrite(int totcount, int success, int failed) {
 		Logger logger = Logger.getLogger("JrCodingChallengeMS3");
 		FileHandler fh;
 		
@@ -108,8 +108,8 @@ public class Main {
 		}
 		
 		logger.info("Records received: " + totcount);
-		logger.info("Successful records: " + goodcount);
-		logger.info("Failed records: " + badcount);
+		logger.info("Successful records: " + success);
+		logger.info("Failed records: " + failed);
 	}
 	
 		
