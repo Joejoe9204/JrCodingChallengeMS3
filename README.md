@@ -24,7 +24,7 @@ I wanted to make each of these functions as simple as possible instead of trying
 
 An assumption I made while working on this challenge was definitely how simple I thought it would have been. I assumed the CSVReader
 would be easy, but there were a few curveballs in the data that I didn't take into account at first. Also setting up and 
-creating an SQLite database was a little more difficult then when I had previously done it before.
+creating an SQLite database was a little more difficult then what I thought it would have been.
 
 
 
