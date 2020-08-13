@@ -22,10 +22,9 @@ After this I made a CSVWriter to put bad data into its own csv file. The log wri
 I wanted to make each of these functions as simple as possible instead of trying to overcomplicate it.
 
 
-An assumption I made while working on this challenge was definitely how hard I thought it would have been. 
-For sure there were some parts I didn't understand and it took some Googling to get past, like setting up and creating an SQLite database,
-but I think for this challenge I was my own worst enemy. Overcomplicating easy tasks and then coming back to them an hour or two later
-was a recurring event that I thought was an absolute BLAST. 
+An assumption I made while working on this challenge was definitely how simple I thought it would have been. I assumed the CSVReader
+would be easy, but there were a few curveballs in the data that I didn't take into account at first. Also setting up and 
+creating an SQLite database was a little more difficult then when I had previously done it before.
 
 
 
